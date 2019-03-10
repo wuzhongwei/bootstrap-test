@@ -151,9 +151,10 @@ body {
   margin: 0 17px;
 }
 
-.menu-nav:hover b{
+.menu-nav:hover b, .ul .menu-nav.active b{
   transform: translateX(0);
 }
+
 
 .menu b {
   background: #e00013;
@@ -230,6 +231,9 @@ body {
 #img {
   position: relative;
 }
+.home {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .navbar-collapse .cative {
@@ -262,6 +266,25 @@ body {
   }
   .slect-col-title {
     margin-top: 30px;
+  }
+  #carousel-example-generic{
+    display: none;
+  }
+  .home {
+    display: block;
+  }
+  .company-title,.company-en {
+    text-align: center;
+  }
+  .xintu {
+    padding: 0;
+  }
+
+  .footer-br{
+    display: block;
+  }
+  .pd0 {
+    padding: 20px 10px;
   }
 }
 
