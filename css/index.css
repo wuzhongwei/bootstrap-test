@@ -151,8 +151,8 @@ body {
   margin: 0 17px;
 }
 
-.menu-nav:hover b, .ul .menu-nav.active b{
-  transform: translateX(0);
+.menu-nav:hover b, .ul .menu-nav.active a{
+  color: #ff2f13;
 }
 
 
@@ -194,6 +194,7 @@ body {
 .company-en {
   color: #fff;
   font-size: 19px;
+  margin-bottom: 40px;
 }
 
 .company-p {
@@ -203,7 +204,7 @@ body {
 }
 
 .pd0 {
-  padding: 20px 0 10px 30px;
+  padding: 20px 0 10px 0px;
 }
 
 .slect-col-title {
@@ -218,11 +219,11 @@ body {
 }
 
 .mb63 {
-  margin-bottom: 63px;
+  margin-bottom: 43px;
 }
 .slect-title {
   color: #ff2f13;
-  font-size: 38px;
+  font-size: 30px;
   text-align: center;
   font-weight: bold;
   margin: 56px 0 50px;
@@ -236,6 +237,17 @@ body {
 }
 .carousel-inner img {
   width: 100%;
+}
+.carousel {
+  margin-top: 60px;
+}
+
+.nav-list-d, .contatusImg {
+  margin-top: 60px;
+}
+
+.h5-sheji,.h5-d {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -264,7 +276,7 @@ body {
   }
 
   .slect-title {
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     font-size: 30px;
   }
 
@@ -273,6 +285,7 @@ body {
   }
   .home {
     display: block;
+    margin-top: 50px;
   }
   .company-title,.company-en {
     text-align: center;
@@ -281,7 +294,7 @@ body {
     padding: 0;
   }
 
-  .footer-br{
+  .footer-br,.h5-d{
     display: block;
   }
   .pd0 {
@@ -296,6 +309,62 @@ body {
   
   .mb63 {
     margin-bottom: 0;
+  }
+  .h5-sheji {
+    display: block;
+    background-color: #020408;
+    padding: 50px 0;
+  }
+  .h5-1 {
+    color: #fff;
+    font-size: 18px;
+  }
+  .h5-2 {
+    color: #fb2e13;
+    font-size: 16px;
+  }
+  .h5-3 {
+    color: #fff;
+    font-size: 16px;
+  }
+  .h5-4 {
+    color: #fff;
+    font-size: 14px;
+  }
+  .h5-5 {
+    width: 137px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fb2e13;
+    font-size: 14px;
+    border: solid 2px #fb2e13;
+    margin: 60px auto 0;
+  }
+  .h5-6 {
+    font-size: 22px;
+    color: #fb2e13;
+    margin-top: 30px;
+  }
+  .h5-7 {
+    font-size: 14px;
+    color: #fff;
+
+  }
+  .line {
+    background-color: #a9a9a9;
+    height: 2px;
+    width: 80%;
+    margin: 50px auto;
+  }
+  .youshi {
+    color: #282b2e;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .tonguo {
+    color: #8b8b8c;
+    font-size: 12px;
   }
 }
 
