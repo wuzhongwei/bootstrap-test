@@ -2,7 +2,9 @@ body {
   font-family: 'SourceHanSansCNLight';
   background-color: #f6f6f7;
 }
-
+p {
+  margin: 0;
+}
 .nav_1 {
   background-color:  rgba(51,51,51,.9);
   
@@ -365,6 +367,41 @@ body {
   .tonguo {
     color: #8b8b8c;
     font-size: 12px;
+  }
+  .footer-f {
+    display: none;
+  }
+  .bgHei {
+    background-color: #191919;
+    text-align: center;
+    padding: 60px 0 0 0;
+  }
+  .foot_content {
+    margin: 40px 0;
+    color: #fff;
+  }
+  .foot_nav {
+    display: flex;
+    background-color: #eeeeef;
+    height: 92px;
+  }
+  .foot_nav_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  .foot_nav_box p {
+    margin-top: 10px;
+  }
+  .foot_nav_box a{
+    color: #020408;
+  }
+  .foot_nav_box a:hover {
+    text-decoration: none;
+  }
+  .weprovide2-d3 {
+    margin: 10px;
   }
 }
 
