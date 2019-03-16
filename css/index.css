@@ -374,7 +374,7 @@ p {
   .bgHei {
     background-color: #191919;
     text-align: center;
-    padding: 60px 0 0 0;
+    padding: 60px 0 92px 0;
   }
   .foot_content {
     margin: 40px 0;
@@ -384,6 +384,10 @@ p {
     display: flex;
     background-color: #eeeeef;
     height: 92px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
   .foot_nav_box {
     display: flex;
